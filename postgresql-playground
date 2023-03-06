@@ -1,0 +1,29 @@
+--CREATE TABLE Incidents (
+--  id int,
+--  urgency VARCHAR(30),
+--  triggered BOOLEAN,
+--  acknowledged BOOLEAN,
+--  resolved BOOLEAN,
+--  description VARCHAR(30),
+--  assigned_to int,
+--  created_date date
+--);
+
+--CREATE TABLE Team (
+  --id int,
+  --first_name VARCHAR(30),
+  --last_name VARCHAR(30),
+  --email VARCHAR(225),
+  --number VARCHAR(225),
+  --avatar VARCHAR(225),
+  --oncall BOOLEAN,
+  --shift_start date,
+  --shift_end date,
+  --incidents VARCHAR[]
+--);
+
+--INSERT INTO Incidents (id, urgency, triggered, acknowledged, resolved, description, assigned_to, created_date) VALUES (1, 'HIGH', true, true, false, 'Devops Escalation', 201, '2022-11-14 09:17:44.087');
+
+--INSERT INTO Incidents (id, urgency, triggered, acknowledged, resolved, description, assigned_to, created_date) VALUES (2, 'LOW', true, false, false, 'Security Ops Escalation', 201, '2022-11-15 09:17:44.087');
+
+--INSERT INTO Team (id, first_name, last_name, email, number, avatar, oncall, shift_start, shift_end, incidents) VALUES (201, 'Hiren', 'Soni', 'soni@cherrypopmedia.co.za', '0012182315682', 'https://lh3.googleusercontent.com/a/AEdFTp71_ITurjGmQaJR1qAYoOsPSWNjKFmFhMEdUumi4A=s288-p-rw-no', true, '2022-11-11 09:17:44.087', '2022-11-16 09:17:44.087', ARRAY['DevOps Escalation', 'Security Ops Escalation']);
